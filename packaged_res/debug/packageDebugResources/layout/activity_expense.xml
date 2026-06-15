@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_mint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/primary_teal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Expense"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:paddingBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Track your spending with ease"
+                android:textSize="12sp"
+                android:textColor="#ffffff99"/>
+
+        </LinearLayout>
+
+        <!-- Form Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/amountInput"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:hint="Amount (R)"
+                android:inputType="numberDecimal"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/input_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/descriptionInput"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:hint="Description"
+                android:inputType="text"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/input_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/dateInput"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:hint="Date"
+                android:inputType="date"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/input_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <EditText
+                    android:id="@+id/startTimeInput"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:hint="Start"
+                    android:inputType="time"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/text_hint"
+                    android:background="@drawable/input_bg"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:layout_marginEnd="6dp"/>
+
+                <EditText
+                    android:id="@+id/endTimeInput"
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:hint="End"
+                    android:inputType="time"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/text_hint"
+                    android:background="@drawable/input_bg"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:layout_marginStart="6dp"/>
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/input_bg"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Receipt Image Preview -->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:background="#f0f0f0"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/pickImageBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="📸 Upload Receipt"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/saveExpenseBtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Save Expense"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
