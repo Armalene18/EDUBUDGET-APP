@@ -1,10 +1,10 @@
 # EduBudget App– Student Personal Budget Tracker
 
-# Overview
+## Overview
 EduBudget is an Android budgeting application designed specifically for South African students. The application helps students manage their finances by tracking expenses, setting budget goals, monitoring spending habits, and encouraging positive financial behaviour through gamification features.
 The app was developed using Kotlin in Android Studio and stores data locally using Room Database, allowing it to function offline.
 
-# Purpose of the App
+## Purpose of the App
 Many students struggle to manage limited budgets while balancing expenses such as transport, groceries, accommodation, data bundles, and academic costs. EduBudget provides a simple and engaging solution that allows users to:
 
 - Tracking daily expenses
@@ -14,7 +14,7 @@ Many students struggle to manage limited budgets while balancing expenses such a
 - Encouraging saving habits
 - Rewarding good budgeting behaviour
 
-# Core Features (POE Requirements)
+## Core Features (POE Requirements)
 - User Authenication
 - Expense Management
 - Budget Goals
@@ -23,7 +23,7 @@ Many students struggle to manage limited budgets while balancing expenses such a
 - Offline Data Storage
 - Gamification
 
-# Our Additional Features
+## Our Additional Features
 The following custom features were designed and implemented in addition to the POE requirements:
 
 - South African Student Categories
@@ -33,7 +33,7 @@ The following custom features were designed and implemented in addition to the P
 - Savings Goal Tracker
 - Dark Mode
 
-# Technologies Used
+## Technologies Used
 - Android Studio	
 - Kotlin	
 - Room Database for  Local Data Storage
@@ -43,16 +43,17 @@ The following custom features were designed and implemented in addition to the P
 - GitHub	
 - GitHub Actions	for Automated Testing
 
-# GitHub Repository
-Repository Link: Armalene18/EDUBUDGET-APP
+## GitHub Repository
+Repository Link:
+https://github.com/ST10438554-kirby/EduBudget_app 
 
-# Authors
+## Authors
 -  Rafiqah Kirby 
 -  Armalene Magerman 
 -  Chloe Langenhoven 
 
-# Video Presentation
-https://youtube.com/@rafiqahkirby7?si=v1P281Rg-AW2mTRF 
+## Video Presentation
+[Insert YouTube Demonstration Link Here]
 
-# License
+## License
 This project was developed as part of an academic assignment. All rights reserved by the authors.
