@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Required by themes.xml -->
+    <color name="primary">#4a9b7f</color>
+    <color name="secondary">#2d6a55</color>
+    <color name="background">#e8f5f0</color>
+    <color name="text_primary">#1a1a1a</color>
+
+    <!-- EduBudget Modern Teal Theme -->
+    <color name="primary_teal">#4a9b7f</color>
+    <color name="primary_teal_dark">#2d6a55</color>
+    <color name="primary_teal_light">#6db39f</color>
+    <color name="background_mint">#e8f5f0</color>
+    <color name="card_white">#FFFFFF</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_green">#2E7D32</color>
+    <color name="accent_blue">#1565C0</color>
+    <color name="accent_orange">#F57F17</color>
+    <color name="accent_purple">#6A1B9A</color>
+    <color name="danger_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+
+    <!-- Text Colors -->
+    <color name="text_dark">#1a1a1a</color>
+    <color name="text_light">#666666</color>
+    <color name="text_hint">#999999</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_blue">#2196F3</color>
+    <color name="chart_green">#4CAF50</color>
+    <color name="chart_orange">#FF9800</color>
+    <color name="chart_red">#F44336</color>
+    <color name="chart_purple">#9C27B0</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Night mode overrides -->
+    <color name="background_mint">#121212</color>
+    <color name="card_white">#1E1E1E</color>
+    <color name="text_dark">#EFEFEF</color>
+    <color name="text_light">#BBBBBB</color>
+    <color name="text_hint">#888888</color>
+    <color name="text_primary">#EFEFEF</color>
+    <color name="background">#121212</color>
+</resources>
