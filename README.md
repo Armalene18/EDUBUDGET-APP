@@ -45,7 +45,8 @@ The following custom features were designed and implemented in addition to the P
 
 ## GitHub Repository
 Repository Link:
-https://github.com/ST10438554-kirby/EduBudget_app 
+(https://github.com/Armalene18/EDUBUDGET-APP )
+
 
 ## Authors
 -  Rafiqah Kirby 
