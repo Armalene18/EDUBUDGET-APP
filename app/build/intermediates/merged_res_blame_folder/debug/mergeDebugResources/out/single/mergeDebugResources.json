@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable-night_card_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable-night/card_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-hdpi_edubudget_logo_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-hdpi/edubudget_logo_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_edubudget_logo_background.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/edubudget_logo_background.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/xml_backup_rules.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-anydpi-v26_edubudget_logo_round.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-anydpi-v26/edubudget_logo_round.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_edubudget_logo_png.png.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/edubudget_logo_png.png"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_edubudget_logo.jpeg.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/edubudget_logo.jpeg"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_edubudget_logo_img.jpeg.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/edubudget_logo_img.jpeg"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_app_background.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/app_background.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_button_primary.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/button_primary.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_no_spend_day.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_no_spend_day.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxxhdpi_edubudget_logo_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxxhdpi/edubudget_logo_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxxhdpi_edubudget_logo.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxxhdpi/edubudget_logo.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_professional_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/professional_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-mdpi_edubudget_logo.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-mdpi/edubudget_logo.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_button_secondary.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/button_secondary.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_edubudget_logo_foreground.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/edubudget_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxxhdpi_edubudget_logo_main.png.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxxhdpi/edubudget_logo_main.png"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_category.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_category.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_card_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/card_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_login.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxhdpi_edubudget_logo_foreground.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxhdpi/edubudget_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xhdpi_edubudget_logo.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xhdpi/edubudget_logo.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxhdpi_edubudget_logo_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxhdpi/edubudget_logo_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-hdpi_edubudget_logo.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-hdpi/edubudget_logo.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xhdpi_edubudget_logo_foreground.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xhdpi/edubudget_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_edittext_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/edittext_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-mdpi_edubudget_logo_foreground.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-mdpi/edubudget_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-anydpi-v26_edubudget_logo.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-anydpi-v26/edubudget_logo.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_expense_list.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_expense_list.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_budget_goal.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_budget_goal.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxhdpi_edubudget_logo.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxhdpi/edubudget_logo.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxxhdpi_edubudget_logo_foreground.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxxhdpi/edubudget_logo_foreground.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_expense.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_expense.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_savings_goal.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_savings_goal.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_badges.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_badges.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_logo_background.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/logo_background.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_create_profile.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_create_profile.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_validation_utils.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_validation_utils.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-mdpi_edubudget_logo_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-mdpi/edubudget_logo_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_input_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/input_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xhdpi_edubudget_logo_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xhdpi/edubudget_logo_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_item_expense.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_item_expense.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable_tab_selected_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable/tab_selected_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_main.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/drawable-night_input_bg.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/drawable-night/input_bg.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_item_badge.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/item_badge.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.edubudget.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.edubudget.app-debug-41:/layout_activity_spending_graph.xml.flat",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_spending_graph.xml"
+    }
+]

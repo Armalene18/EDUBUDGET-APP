@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="background_mint">#121212</color>
+    <color name="card_white">#1E1E1E</color>
+    <color name="text_dark">#EFEFEF</color>
+    <color name="text_hint">#888888</color>
+    <color name="text_light">#BBBBBB</color>
+    <color name="text_primary">#EFEFEF</color>
+    <style name="Theme.EduBudget" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6db39f</item>
+        <item name="colorSecondary">#4a9b7f</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:textColor">#EFEFEF</item>
+    </style>
+</resources>

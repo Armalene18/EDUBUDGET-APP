@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_savings_goal.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_savings_goal.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_validation_utils.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_validation_utils.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_dashboard.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_no_spend_day.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_no_spend_day.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_create_profile.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_create_profile.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/item_badge.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/item_badge.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_budget_goal.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_budget_goal.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_category.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_category.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_spending_graph.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_spending_graph.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_expense.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_expense.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_login.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_badges.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_badges.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_item_expense.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_item_expense.xml"
+    },
+    {
+        "merged": "com.example.edubudget.app-mergeDebugResources-40:/layout/activity_expense_list.xml",
+        "source": "com.example.edubudget.app-main-43:/layout/activity_expense_list.xml"
+    }
+]

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Top Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/primary_teal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Welcome, Student!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <Switch
+            android:id="@+id/darkModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark"
+            android:textColor="@color/white"
+            android:textSize="11sp"/>
+
+    </LinearLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Budget Summary Card -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_bg"
+                android:padding="20dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📊 Budget Overview"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_dark"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:id="@+id/totalExpensesText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Spent: R0.00"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_dark"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/expenseCountText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expenses Logged: 0"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_light"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/goalRangeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Budget Goal: Not set"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_dark"
+                    android:layout_marginBottom="8dp"/>
+
+                <ProgressBar
+                    android:id="@+id/budgetProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:max="100"
+                    android:progress="0"
+                    android:progressTint="@color/primary_teal"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/budgetStatusText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Set a budget goal to track progress"
+                    android:textSize="13sp"
+                    android:textColor="@color/success_green"
+                    android:layout_marginBottom="4dp"/>
+
+                <TextView
+                    android:id="@+id/safeToSpendText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Safe to Spend: R0.00"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_teal"/>
+
+            </LinearLayout>
+
+            <!-- Quick Actions Label -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quick Actions"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnExpense"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="➕ Add Expense"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnViewExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="📋 View Expenses"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnCategory"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="🗂 Manage Categories"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnGoal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="🎯 Set Budget Goal"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnGraph"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="📈 Spending Graph"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnBadges"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="🏆 My Badges"
+                android:textColor="@color/white"
+                android:backgroundTint="#FF9800"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnSavings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="💰 Savings Goals"
+                android:textColor="@color/white"
+                android:backgroundTint="#2E7D32"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnNoSpend"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="🚫 No Spend Day"
+                android:textColor="@color/white"
+                android:backgroundTint="#7B1FA2"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar — neat, with Dashboard label -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:background="@color/primary_teal"
+        android:elevation="8dp">
+
+        <Button
+            android:id="@+id/tabDashboard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="🏠"
+            android:textSize="22sp"
+            android:textColor="#FFFFFF"
+            android:alpha="1.0"
+            android:background="@drawable/tab_selected_bg"/>
+
+        <Button
+            android:id="@+id/tabExpense"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="➕"
+            android:textSize="22sp"
+            android:textColor="#CCFFFFFF"
+            android:alpha="0.85"
+            android:background="?attr/selectableItemBackground"/>
+
+        <Button
+            android:id="@+id/tabCategories"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="📋"
+            android:textSize="22sp"
+            android:textColor="#CCFFFFFF"
+            android:alpha="0.85"
+            android:background="?attr/selectableItemBackground"/>
+
+        <Button
+            android:id="@+id/tabReports"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="📊"
+            android:textSize="22sp"
+            android:textColor="#CCFFFFFF"
+            android:alpha="0.85"
+            android:background="?attr/selectableItemBackground"/>
+
+        <Button
+            android:id="@+id/tabProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="👤"
+            android:textSize="22sp"
+            android:textColor="#CCFFFFFF"
+            android:alpha="0.85"
+            android:background="?attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+</LinearLayout>

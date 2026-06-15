@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_mint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/primary_teal"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Budget Goal"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Define your spending limits"
+                android:textSize="12sp"
+                android:textColor="#ffffff99"/>
+        </LinearLayout>
+
+        <!-- Input Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum Budget"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/minText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Min: R0.00"
+                android:textSize="16sp"
+                android:textColor="@color/primary_teal"
+                android:layout_marginBottom="4dp"/>
+
+            <SeekBar
+                android:id="@+id/minSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10000"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/minInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Or type minimum amount (R)"
+                android:inputType="numberDecimal"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/input_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maximum Budget"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/maxText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Max: R0.00"
+                android:textSize="16sp"
+                android:textColor="@color/primary_teal"
+                android:layout_marginBottom="4dp"/>
+
+            <SeekBar
+                android:id="@+id/maxSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10000"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/maxInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Or type maximum amount (R)"
+                android:inputType="numberDecimal"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint"
+                android:background="@drawable/input_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/saveGoalBtn"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Save Goal"
+                android:textColor="@color/white"
+                android:background="@drawable/button_primary"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <!-- Existing Goals -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 Existing Goals"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_dark"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/existingGoalsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

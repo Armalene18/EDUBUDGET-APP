@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EduBudget" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#6db39f</item>
+        <item name="colorSecondary">#4a9b7f</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:textColor">#EFEFEF</item>
+    </style>
+</resources>
