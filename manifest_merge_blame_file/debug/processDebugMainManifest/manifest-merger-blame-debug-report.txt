@@ -1,0 +1,238 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.edubudget"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+14-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <permission
+16-->[androidx.core:core:1.13.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\4274cf8825434ac914f862ede29a93e5\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.edubudget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\4274cf8825434ac914f862ede29a93e5\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\4274cf8825434ac914f862ede29a93e5\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.edubudget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\4274cf8825434ac914f862ede29a93e5\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\4274cf8825434ac914f862ede29a93e5\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:10:5-53:19
+23        android:allowBackup="true"
+23-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\4274cf8825434ac914f862ede29a93e5\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:12:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:13:9-54
+29        android:icon="@drawable/edubudget_logo_img"
+29-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:14:9-52
+30        android:label="@string/app_name"
+30-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:16:9-41
+31        android:roundIcon="@drawable/edubudget_logo"
+31-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:15:9-53
+32        android:supportsRtl="true"
+32-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.EduBudget" >
+34-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:18:9-47
+35
+36        <!-- LOGIN (START SCREEN) -->
+37        <activity
+37-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:21:9-28:20
+38            android:name="com.example.edubudget.LoginActivity"
+38-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:22:13-42
+39            android:exported="true" >
+39-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:23:13-36
+40            <intent-filter>
+40-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:24:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:25:17-69
+41-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:26:17-77
+43-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <!-- MAIN SCREENS -->
+48        <activity
+48-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:31:9-80
+49            android:name="com.example.edubudget.DashboardActivity"
+49-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:31:19-52
+50            android:exported="false" />
+50-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:31:53-77
+51        <activity
+51-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:32:9-78
+52            android:name="com.example.edubudget.ExpenseActivity"
+52-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:32:19-50
+53            android:exported="false" />
+53-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:32:51-75
+54        <activity
+54-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:33:9-82
+55            android:name="com.example.edubudget.ExpenseListActivity"
+55-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:33:19-54
+56            android:exported="false" />
+56-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:33:55-79
+57        <activity
+57-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:34:9-79
+58            android:name="com.example.edubudget.CategoryActivity"
+58-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:34:19-51
+59            android:exported="false" />
+59-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:34:52-76
+60        <activity
+60-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:35:9-81
+61            android:name="com.example.edubudget.BudgetGoalActivity"
+61-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:35:19-53
+62            android:exported="false" />
+62-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:35:54-78
+63        <activity
+63-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:36:9-84
+64            android:name="com.example.edubudget.CreateProfileActivity"
+64-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:36:19-56
+65            android:exported="false" />
+65-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:36:57-81
+66
+67        <!-- NEW FINAL POE SCREENS -->
+68        <activity
+68-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:39:9-84
+69            android:name="com.example.edubudget.SpendingGraphActivity"
+69-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:39:19-56
+70            android:exported="false" />
+70-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:39:57-81
+71        <activity
+71-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:40:9-77
+72            android:name="com.example.edubudget.BadgesActivity"
+72-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:40:19-49
+73            android:exported="false" />
+73-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:40:50-74
+74        <activity
+74-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:41:9-82
+75            android:name="com.example.edubudget.SavingsGoalActivity"
+75-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:41:19-54
+76            android:exported="false" />
+76-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:41:55-79
+77        <activity
+77-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:42:9-81
+78            android:name="com.example.edubudget.NoSpendDayActivity"
+78-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:42:19-53
+79            android:exported="false" />
+79-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:42:54-78
+80
+81        <!-- BASE / SUPPORT -->
+82        <activity
+82-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:45:9-75
+83            android:name="com.example.edubudget.BaseActivity"
+83-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:45:19-47
+84            android:exported="false" />
+84-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:45:48-72
+85        <activity
+85-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:46:9-75
+86            android:name="com.example.edubudget.item_expense"
+86-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:46:19-47
+87            android:exported="false" />
+87-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:46:48-72
+88
+89        <!-- Notification Receiver -->
+90        <receiver
+90-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:49:9-51:39
+91            android:name="com.example.edubudget.ReminderReceiver"
+91-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:50:13-45
+92            android:exported="false" />
+92-->C:\Users\rafiq\OneDrive\Desktop\EduBudget_app (1)\EduBudget_app\app\src\main\AndroidManifest.xml:51:13-37
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.example.edubudget.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\3dbfe3c98a883ad2083adb0927efc64f\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\a7ca7922af2216646f77b1951be31300\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\a7ca7922af2216646f77b1951be31300\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\a7ca7922af2216646f77b1951be31300\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+106                android:value="androidx.startup" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+107        </provider>
+108
+109        <service
+109-->[androidx.room:room-runtime:2.6.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\85208ec72a250a50bf49461c4cd642cb\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+110            android:name="androidx.room.MultiInstanceInvalidationService"
+110-->[androidx.room:room-runtime:2.6.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\85208ec72a250a50bf49461c4cd642cb\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+111            android:directBootAware="true"
+111-->[androidx.room:room-runtime:2.6.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\85208ec72a250a50bf49461c4cd642cb\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+112            android:exported="false" />
+112-->[androidx.room:room-runtime:2.6.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\85208ec72a250a50bf49461c4cd642cb\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rafiq\.gradle\caches\9.4.1\transforms\ef1b4ef07469f0a7cbe2535cc2889d32\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>
