@@ -44,8 +44,7 @@ The following custom features were designed and implemented in addition to the P
 - GitHub Actions	for Automated Testing
 
 # GitHub Repository
-Repository Link:
-Armalene18/EDUBUDGET-APP
+Repository Link: Armalene18/EDUBUDGET-APP
 
 # Authors
 -  Rafiqah Kirby 
